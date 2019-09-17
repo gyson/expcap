@@ -34,7 +34,7 @@ defimpl PayloadType, for: Protocol.Udp do
   """
   @spec payload_parser(binary) :: Protocol.Udp.t
   def payload_parser(_data) do
-    Protocol.Dns
+    nil
   end
 end
 
